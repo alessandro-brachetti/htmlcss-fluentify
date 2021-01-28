@@ -3,12 +3,14 @@
   <head>
     <meta charset="utf-8">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Yantramanav&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
     <link rel="stylesheet" href="./assets/css/master.css">
     <title>Fluentify</title>
   </head>
   <body>
     <header>
+      <!-- NAVBAR -->
         <nav>
           <div class="container">
             <div class="logo">
@@ -21,55 +23,103 @@
               <li><a href="#">soluzioni aziendali</a></li>
             </ul>
             <ul class="bar-right">
-              <li><a class="btn-tutor" href="#">diventa un tutor</a></li>
-              <li><a class="btn-login" href="#">log in</a></li>
-              <li><a class="btn-plan" href="#">struttura un piano</a></li>
+              <li><a class="btn tutor-btn" href="#">diventa un tutor</a></li>
+              <li><a class="btn login-btn" href="#">log in</a></li>
+              <li><a class="btn plan-btn" href="#">struttura un piano</a></li>
             </ul>
           </div>
         </nav>
-          <div class="bg-header">
-            <div class="container title">
-              <h1>Scegli l'inglese studiato per i professionisti</h1>
-              <a class="btn-plan-jumbo" href="#">struttura un piano</a>
+        <!-- JUMBO -->
+          <div class="jumbo bg-header">
+            <div class="container">
+              <div class="row">
+                <div class="col-50">
+                  <div class="jumbo-txt">
+                    <h1>Scegli l'inglese studiato per i professionisti</h1>
+                    <a class="btn plan jumbo-btn" href="#">struttura un piano</a>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
-
     </header>
 
     <main>
+      <!-- SLOGAN -->
       <section>
-        <div class="container">
+        <div class="slogan">
           <div class="row">
             <div class="col-100">
-
+              <div class="slogan-text">
+                <h2>Le scuole di lingua tradizionali non sono efficaci</h2>
+                <h5>Solo un corso incentrato sulla Fluency può portare ad una soluzione definitiva concreta.</h5>
+              </div>
             </div>
           </div>
         </div>
       </section>
+      <!-- COURSE -->
       <section>
         <div class="container">
           <div class="row">
             <div class="col-33">
-
+              <div class="course-img profile">
+                <img src="./assets/img/profile.svg" alt="immagine di una gru con un profilo dietro">
+              </div>
+              <div class="course-text profile">
+                <h4>Piano formativo configurato sul proprio livello</h4>
+                <hr>
+                <p>
+                  Un metodo improntato sullo speaking con percorsi basati esattamente sulle esigenze personali dei partecipanti. Tutto parte da un accurato test di partenza per definire il livello e impostare gli obiettivi da raggiungere.
+                </p>
+              </div>
             </div>
             <div class="col-33">
-
+              <div class="course-img computer">
+                <img src="./assets/img/computer.svg" alt="immagine di un computer">
+              </div>
+              <div class="course-text computer">
+                <h4>Affiancamento constante del tutor</h4>
+                <hr>
+                <p>
+                  Scopri il syllabus, la guida per il tuo percorso. Scegli gli argomenti per passare al livello successivo e affrontali con i tutor nelle sessioni one-to-one.
+                </p>
+              </div>
             </div>
             <div class="col-33">
-
+              <div class="course-img doc">
+                <img src="./assets/img/doc.svg" alt="immagine di un documento">
+              </div>
+              <div class="course-text doc">
+                <h4>Monitora i tuoi progressi constantemente</h4>
+                <hr>
+                <p>
+                  Controlla i tuoi progressi con i dati elaborati dal nostro sistema. Hai il pieno controllo su miglioramenti e obiettivi raggiunti.
+                </p>
+              </div>
             </div>
           </div>
-          <!-- <hr> -->
         </div>
+          <hr id="line">
       </section>
+      <!-- YOUR PLAN -->
       <section>
         <div class="container">
           <div class="row">
             <div class="col-50">
+              <div class="your-plan img-mountain">
+                <img src="./assets/img/mountain.svg" alt="Immagine di una montagna">
 
+              </div>
             </div>
             <div class="col-50">
-
+              <div class="your-plan-text">
+                <h4>Scopri il tuo livello iniziale e struttura un piano personalizzato</h4>
+                <p>
+                  L'esperienza Fluentify parte sempre da un test di placement per avere una chiara visione del tuo inglese, ad oggi.
+                </p>
+                <a href="#">Scopri il nostro test di placement</a>
+              </div>
             </div>
           </div>
         </div>
@@ -80,15 +130,28 @@
       <div class="container">
         <div class="row">
           <div class="col-50">
-
+            <div class="left-text">
+              <h4>Struttura un piano</h4>
+            </div>
           </div>
           <div class="col-50">
-
+            <div class="right-text">
+              <div class="drop-down">
+                <span>Sono</span>
+                <div class="underline">
+                  <span>Seleziona</span>
+                  <i class="fas fa-sort-down"></i>
+                </div>
+              </div>
+              <div class="footer-btns">
+                <a class="btn plan footer-btn" href="#">visualizza il tuo piano</a>
+                <a class="btn help-btn" href="#">help</a>
+              </div>
+            </div>
           </div>
-
         </div>
       </div>
-
     </footer>
+    
   </body>
 </html>
